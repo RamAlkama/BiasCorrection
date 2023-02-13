@@ -8,3 +8,9 @@ Python is a popular programming language that can be used to perform bias correc
     Calculate the bias between the two datasets.
     Subtract the mean bias from the model data.
     
+    
+Example of use:
+
+python quantile2d.py -obs obs_1980_2010.nc -vobs tmp -hist sim_1980_2010.nc -vhist tas -fut sim_2070_2100.nc -vfut tas -o corrected_2070_2100.nc
+
+    
