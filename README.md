@@ -11,7 +11,7 @@ Python is a popular programming language that can be used to perform bias correc
 
 Quantile-Matching Bias Correction Approach is a statistical method used to adjust the bias in data by matching the distribution of observed data with the distribution of model data.
 
-The python script includes two methods (classical and delta).
+The python script quantile2d.py includes two methods (classical and delta).
 
 # The classical approach 
 The classical approach involves comparing the cumulative distribution function (CDF) of the observed data with the CDF of the model data, and then adjusting the model data to match the observed data. This method is straightforward and easy to implement, but it assumes that the model and observed data have the same shape.
